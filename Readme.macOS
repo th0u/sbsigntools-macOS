@@ -12,13 +12,3 @@ Run
   make
 
 and find binaries like sbsign in src folder.
-
-<<<<<<< HEAD
-run
- autoreconf -i 
- ./configure --prefix=/usr ac_cv_header_bfd_h=yes endian=little little_endian=1 big_endian=0 CRTPATH=./ext
- make
-find binaries like sbsign in src folder
-=======
->>>>>>> 6f852083d85c60977d49abbe6a518b29676a5792
-
