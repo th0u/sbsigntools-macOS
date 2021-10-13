@@ -7,7 +7,7 @@ AM_CFLAGS = -Wall -Wextra --std=gnu99  -Wno-gnu-variable-sized-type-not-at-end
 common_SOURCES = idc.c idc.h image.c image.h fileio.c fileio.h \
 	efivars.h $(coff_headers)
 common_LDADD = ../lib/ccan/libccan.a $(libcrypto_LIBS)
-common_CFLAGS = -I$(top_srcdir)/lib/ccan/ -I/opt/local/include -I$(srcdir)/ext/ -Werror
+common_CFLAGS = -I$(top_srcdir)/lib/ccan/ -I/opt/local/include -I$(top_srcdir)/ext/ -Werror
 
 sbsign_SOURCES = sbsign.c $(common_SOURCES)
 sbsign_LDADD = $(common_LDADD)
