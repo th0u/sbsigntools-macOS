@@ -5,6 +5,7 @@ This Repository is based on
   
   gnu-efi-3.0.14 Include-files (https://sourceforge.net/projects/gnu-efi/files/gnu-efi-3.0.14.tar.bz2/download)
 
-with mininal changes to Makefile.am and src/Makefile.am. The unmodified Header Files from gnu-efi/inc were placed in the folder ext/efi.
+with mininal changes to Makefile.am and src/Makefile.am. 
+The unmodified Header Files from gnu-efi/inc were placed in the folder ext/efi.
 
 How to compile on macOS: See Readme.macOS
