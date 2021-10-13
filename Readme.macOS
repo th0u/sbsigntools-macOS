@@ -1,8 +1,8 @@
 How to compile:
 
 run
-* autoreconf -i 
-* ./configure --prefix=/usr ac_cv_header_bfd_h=yes endian=little little_endian=1 big_endian=0 CRTPATH=./ext
-* make
+ autoreconf -i 
+ ./configure --prefix=/usr ac_cv_header_bfd_h=yes endian=little little_endian=1 big_endian=0 CRTPATH=./ext
+ make
 find binaries like sbsign in src folder
 
